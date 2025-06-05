@@ -21,11 +21,16 @@
   "homepage": "https://github.com/AKSHAYRAOCH/bazr-backend#readme",
   "dependencies": {
     "dotenv": "^16.5.0",
+    "drizzle-orm": "^0.44.2",
     "express": "^5.1.0",
+    "pg": "^8.16.0",
     "tsc": "^2.0.4"
   },
   "devDependencies": {
     "@types/express": "^5.0.2",
+    "@types/pg": "^8.15.4",
+    "drizzle-kit": "^0.31.1",
+    "tsx": "^4.19.4",
     "typescript": "^5.8.3"
   }
 }

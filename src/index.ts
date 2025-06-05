@@ -1,10 +1,14 @@
 import express from "express";
 import { config } from "dotenv";
+
+
 config()
 const app = express()
 
-app.get("/", (req, res) => {
+app.get("/", async (req, res) => {
     res.send("Hello World")
+    
+    
 });
 
 app.listen(3000, () => {
