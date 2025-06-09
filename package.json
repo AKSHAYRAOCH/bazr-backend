@@ -20,6 +20,8 @@
   },
   "homepage": "https://github.com/AKSHAYRAOCH/bazr-backend#readme",
   "dependencies": {
+    "better-auth": "^1.2.8",
+    "cors": "^2.8.5",
     "dotenv": "^16.5.0",
     "drizzle-orm": "^0.44.2",
     "express": "^5.1.0",
@@ -27,6 +29,7 @@
     "tsc": "^2.0.4"
   },
   "devDependencies": {
+    "@types/cors": "^2.8.18",
     "@types/express": "^5.0.2",
     "@types/pg": "^8.15.4",
     "drizzle-kit": "^0.31.1",
